@@ -48,7 +48,8 @@ h1,h2,h3{
 h1,
 h2,
 h3,
-form label{
+form label,
+.card h2{
     color: deeppink;
 }
 
@@ -431,6 +432,7 @@ img[src$=".jpg"]{
 .about__box div h1 + p > span{
     /* color: blue; */
 }
+
 
 /*  inicia responsive */
 @media (width < 1024px){
